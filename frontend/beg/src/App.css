@@ -1,0 +1,25 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+#root {
+  /* max-width: 1280px; */ /* Remove or comment out max-width */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  width: 100%; /* Ensure full width */
+  height: 100vh; /* Ensure full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em; /* Adjust padding as needed */
+  display: flex;
+  flex-direction: column; 
+}
